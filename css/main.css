@@ -1,38 +1,43 @@
-
-section {
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+body {
+	overflow: hidden;
+}
+#first-page {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	background: url(../image/summer-car.jpg) no-repeat;
 	background-size: cover;
 }
-
-/*Media Query para página grande*/
-/*@media screen 
-  and (min-device-width: 800px)  { 
-  	section {
-  	position: absolute;
+/*IMAGEN DE LOGO*/
+.logo {
+	margin-top: 100%;
+}
+.logo img {
 	width: 100%;
-	height: 100%;
-	background: url(../image/summer-car-lg.jpg) no-repeat;
-	background-size: cover;
-  	}
-}*/
-	
+}
 #first-page button {
 	width: 100%;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	font-size: 35px;
-	position: relative;
-	top: 700px; 
+}
+.contenedor-botones {
+	margin-top: 100px;
 }
 
 .btn-login {
-	background-color: transparent;
-	border: 3px solid white;
-	color: white;
-	font-weight: bold;
+	background-color: white;
+	border:;
+	color: black;
+	font-weight: ;
 	border-radius: 8px 8px 8px 8px;
 }
 
@@ -41,4 +46,55 @@ section {
 	background: linear-gradient(to right, #7900BF , #D900BF);
 	color: white;
 	border-radius: 8px 8px 8px 8px;
+}
+
+
+
+/*PAGINA SIGN UP*/
+
+.back-button {
+	font-size: 20px;
+	margin-top: 10px;
+}
+#sign-up-header {
+	text-align: center;
+	border-bottom: 1px solid black;
+	color: black;
+	background-color: white; 
+}
+#sign-up-header h3 {
+	margin-top: 10px;
+}
+
+.input-group {
+	margin-top: 10px;
+}
+#sign-up-button {
+	margin-top: 100px;
+}
+.btn-next {
+	width: 100%;
+	background-color: #FF00BF;
+	border: 0px solid white;
+	padding: 30px;
+	font-size: 20px;
+	color: white;
+}
+#sign-up-number {
+	text-align: center;
+}
+
+
+
+/*Country selector*/
+#country-header {
+	border-bottom: 1px solid black;
+}
+
+#country-header h3 {
+	margin-top: 10px;
+	text-align: center;
+}
+.btn-close{
+	margin-top: 15px;
 }
