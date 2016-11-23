@@ -28,12 +28,14 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 caja-input">
-						<!--<span class="input-group-btn">
+						<div class="input-group">
+						<span class="input-group-btn">
 							<a href="country.html"><button class="form-control" id="country-option"><img src="image/flag-chile.png" >
 						     </button></a>
-						</span>-->
-						<input type="tel" id="demo" placeholder="">
-						<!--<input type="text" pattern="[0-9]*" class="form-control" value="+56" placeholder="12345678">-->
+						</span>
+						<!--<input type="tel" id="demo" placeholder="">-->
+						<input id="input-number" type="text" pattern="[0-9]*" class="form-control" value="+56" placeholder="12345678">
+						</div>
 					<p>We'll send you a text to verify your phone</p>
 				</div>
 			</div>
@@ -53,7 +55,7 @@
 	<!--SECCION JS Y JQUERY-->
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<!--PHONE-->
-	<script src="build/js/intlTelInput.js"></script>
+	<!--<script src="build/js/intlTelInput.js"></script>
   <script>
         $("#mobile-number").intlTelInput();
     /*$("#phone").intlTelInput({
@@ -75,7 +77,7 @@
       separateDialCode: true,
       utilsScript: "build/js/utils.js"
     });*/
-  </script>
+  </script>-->
 	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
