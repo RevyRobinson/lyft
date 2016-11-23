@@ -74,9 +74,10 @@ body {
 }
 .btn-next {
 	width: 100%;
+	height: 60px;
 	background-color: #FF00BF;
 	border: 0px solid white;
-	padding: 30px;
+	padding: 20px;
 	font-size: 20px;
 	color: white;
 }
@@ -84,6 +85,13 @@ body {
 	text-align: center;
 }
 
+/*input*/
+.caja-input {
+	margin-top: 10px;
+}
+.caja-input p {
+	margin-top: 10px;
+}
 
 
 /*Country selector*/
@@ -97,4 +105,12 @@ body {
 }
 .btn-close{
 	margin-top: 15px;
+}
+
+/*FLAGS*/
+.flag {
+	margin-top: 5px;
+}
+.li1 {
+	background-color: lightgray;
 }
