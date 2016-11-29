@@ -5,8 +5,8 @@
 	<title>LYFT</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!--PHONE-->
-  <link rel="stylesheet" href="build/css/intlTelInput.css">
-  <link rel="stylesheet" href="build/css/demo.css">
+  <link rel="stylesheet" href="css/intlTelInput.css">
+  <link rel="stylesheet" href="css/demo.css">
 	<!--END-->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
@@ -30,11 +30,11 @@
 				<div class="col-xs-12 caja-input">
 						<div class="input-group">
 						<span class="input-group-btn">
-							<a href="country.html"><button class="form-control" id="country-option"><img src="image/flag-chile.png" >
+							<!--<a href="country.html"><button class="form-control" id="country-option"><img src="image/flag-chile.png" >
 						     </button></a>
-						</span>
-						<!--<input type="tel" id="demo" placeholder="">-->
-						<input id="input-number" type="text" pattern="[0-9]*" class="form-control" value="+56" placeholder="12345678">
+						</span>-->
+						<input type="tel" id="demo" placeholder="">
+						<!--<input id="input-number" type="text" pattern="[0-9]*" class="form-control" value="+56" placeholder="12345678">-->
 						</div>
 					<p>We'll send you a text to verify your phone</p>
 				</div>
@@ -55,29 +55,29 @@
 	<!--SECCION JS Y JQUERY-->
 	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 	<!--PHONE-->
-	<!--<script src="build/js/intlTelInput.js"></script>
+	<script src="js/intlTelInput.js"></script>
   <script>
         $("#mobile-number").intlTelInput();
-    /*$("#phone").intlTelInput({
+    $("#phone").intlTelInput({
       allowDropdown: true,
        autoHideDialCode: false,
-      autoPlaceholder: "null",
+      autoPlaceholder: "polite",
       dropdownContainer: "body",
-       geoIpLookup: function(callback) {
+      /* geoIpLookup: function(callback) {
         $.get("http://ipinfo.io", function() {}, "jsonp").always(function(resp) {
         var countryCode = (resp && resp.country) ? resp.country : "";
           callback(countryCode);
          });
-       },
+       },*/
        initialCountry: "auto",
        nationalMode: false,
        numberType: "MOBILE",
       //onlyCountries: ['us', 'mx', 'cl', 'pe'],
-      //preferredCountries: ['cl'],
+      preferredCountries: ['cl'],
       separateDialCode: true,
       utilsScript: "build/js/utils.js"
-    });*/
-  </script>-->
+    });
+  </script>
 	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
