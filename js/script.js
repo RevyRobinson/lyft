@@ -81,13 +81,13 @@ $('#next').on('click', function(n){
 	window.localStorage.setItem('codigo',code);
 
 	//mandando la alerta con el code
-	alert('Tu código de validación es: ' + code + '. Recuérdalo.');
-
-	//enviar a la pagina siguiente?
-	$('#next').attr('href','validation.html');
+	//alert('your validation code is: ' + code + '. Remember it.');
+	console.log('holi');
 } else {
 	alert('Please, write your phone number.');
+	console.log('holo :c');
 	return;
 };
 });
 
+ 
